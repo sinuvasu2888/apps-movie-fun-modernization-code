@@ -28,6 +28,7 @@ import javax.persistence.criteria.*;
 import javax.persistence.metamodel.EntityType;
 import java.util.List;
 
+
 @Repository
 public class MoviesBean {
 

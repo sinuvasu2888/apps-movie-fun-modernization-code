@@ -17,6 +17,7 @@ public class S3Store implements BlobStore {
     private final String bucketName;
     private final Tika tika = new Tika();
 
+
     public S3Store(AmazonS3 s3, String bucketName) {
         this.s3 = s3;
         this.bucketName = bucketName;
