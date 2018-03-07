@@ -2,7 +2,6 @@ apply from: "../../java.gradle"
 
 dependencies {
     compile project(":components:blobstore")
-    //compile project(":components:movies")
 
     compile "org.springframework:spring-web:$springVersion"
 

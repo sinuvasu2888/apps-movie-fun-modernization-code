@@ -2,6 +2,8 @@ rootProject.name = "moviefun"
 
 include "applications:movie-fun-app"
 include "applications:movie-service"
+include "applications:album-service"
+
 
 include "components:albums"
 include "components:movies"
